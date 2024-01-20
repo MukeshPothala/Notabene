@@ -9,7 +9,7 @@ import { api } from "@/convex/_generated/api";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";
 
-const page = () => {
+const Page = () => {
   const { user } = useUser();
   const create = useMutation(api.documents.create);
   const router = useRouter();
@@ -44,4 +44,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
