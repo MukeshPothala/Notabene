@@ -19,7 +19,7 @@ import {
   PopoverContent,
 } from "@/components/ui/popover";
 import { TrashBox } from "./TrashBox";
-import { useSearch } from "@/hooks/useSearchHook";
+import { useSearch } from "@/hooks/use-SearchHook";
 import { Navbar } from "./Navbar";
 
 export const Navigation = () => {
