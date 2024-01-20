@@ -7,7 +7,7 @@ import { useConvexAuth } from "convex/react";
 import Link from "next/link";
 import React, { ReactNode } from "react";
 
-const layout = ({ children }: { children: ReactNode }) => {
+const Layout = ({ children }: { children: ReactNode }) => {
   const { isAuthenticated, isLoading } = useConvexAuth();
   return (
     <div className="h-full">
