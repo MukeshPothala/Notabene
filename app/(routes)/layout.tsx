@@ -3,7 +3,6 @@
 import { SearchModal } from "@/components/custom-ui/SearchModal";
 import { Spinner } from "@/components/custom-ui/Spinner";
 import { Navigation } from "@/components/custom-ui/navigation";
-import { UserButton } from "@clerk/clerk-react";
 import { useConvexAuth } from "convex/react";
 import { redirect } from "next/navigation";
 import React, { ReactNode } from "react";

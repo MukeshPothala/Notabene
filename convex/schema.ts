@@ -8,6 +8,5 @@ export default defineSchema({
     isArchived: v.boolean(),
     content: v.optional(v.string()),
     icon: v.optional(v.string()),
-    coverImage: v.optional(v.string()),
   }).index("by_user", ["userId"]),
 });
