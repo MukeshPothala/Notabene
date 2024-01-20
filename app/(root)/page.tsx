@@ -11,7 +11,7 @@ import React from "react";
 
 import TypeWriter from "typewriter-effect";
 
-const page = () => {
+const Page = () => {
   const { isAuthenticated, isLoading } = useConvexAuth();
   return (
     <div className="h-full flex flex-col">
@@ -68,4 +68,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
