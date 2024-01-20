@@ -2,7 +2,7 @@
 
 import { SearchModal } from "@/components/custom-ui/SearchModal";
 import { Spinner } from "@/components/custom-ui/Spinner";
-import { Navigation } from "@/components/custom-ui/navigation";
+import { Navigation } from "@/components/custom-ui/Navigation";
 import { useConvexAuth } from "convex/react";
 import { redirect } from "next/navigation";
 import React, { ReactNode } from "react";

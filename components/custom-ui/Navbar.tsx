@@ -7,7 +7,7 @@ import { MenuIcon, Trash2Icon } from "lucide-react";
 import { api } from "@/convex/_generated/api";
 import { Id } from "@/convex/_generated/dataModel";
 
-import { Title } from "./title";
+import { Title } from "./Title";
 import { Banner } from "./Banner";
 import { toast } from "sonner";
 
