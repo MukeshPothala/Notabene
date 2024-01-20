@@ -7,7 +7,7 @@ import { useConvexAuth } from "convex/react";
 import { redirect } from "next/navigation";
 import React, { ReactNode } from "react";
 
-const layout = ({ children }: { children: ReactNode }) => {
+const Layout = ({ children }: { children: ReactNode }) => {
   const { isAuthenticated, isLoading } = useConvexAuth();
   if (isLoading) {
     return (
@@ -31,4 +31,4 @@ const layout = ({ children }: { children: ReactNode }) => {
   );
 };
 
-export default layout;
+export default Layout;
